@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaid's Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hubballi&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<style>
+    /* CSS Reset */
+    body{
+        
+        font-family: 'Hubballi', cursive;
+        color:white;
+        margin:0px;
+        padding: 0px; 
+        background-image: url(img/bng.jpg); 
+    }
+    .left{
+
+display:inline-block;
+position:absolute;
+left:60px;
+top:20px;
+    }
+
+    .mid{
+
+display:block;
+
+width:37%;
+margin:20px auto;
+    }
+    .right{
+
+display:inline-block;
+position:absolute;
+right:34px;
+top:20px;
+    }
+    .navbar li{
+      display: inline-block;
+       font-size:20px;
+    }
+    .navbar li a{
+        text-decoration:none;
+        color:white;
+        padding: 14px 14px;
+        font-size:22px;
+       
+    }
+
+    .navbar li a:hover,  .navbar li a.active{
+        text-decoration:underline;
+        color:rgb(145, 145, 145);
+    }
+    
+    .left img{
+        width:114px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align:center;
+        line-height: 41px;
+  margin-right:2px;
+    font-size: 21px;
+}
+    
+    .btn{
+        background-color:black;
+        color:white;
+        margin: 0px 10px;
+    padding: 2px 5px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    .btn:hover{
+        color:darkkhaki;
+    }
+    .container{
+    
+        border-radius: 20px;
+
+    width: 33%;
+    margin: 106px 80px;
+    padding: 75px;
+}
+.form-group input{
+    font-family: 'Hubballi', cursive;
+    text-align:center;
+    display:block;
+    width:360px;
+    padding:8px;
+    border:2px solid black;
+    margin: 9px auto;
+    border-radius:10px;
+    font-size:16px;
+}
+.container h1{
+    text-align:center;
+}
+  .container button {
+  display:block;
+  width:78%;
+  margin: 18px auto;
+  }  
+</style>
+<body>
+    <header>
+        <!-- left box is for logo -->
+        <div class="left">
+<img src="img/dumbbell-35686.png" alt="">
+<div> Zaid Fitness</div>
+        </div>
+        <!-- mid box is for navbar -->
+        <div class="mid">
+<ul class="navbar">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Fitnes Calculator</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+        </div>
+        <!-- Right box is for buttons -->
+        <div class="right">
+<button class="btn">Call us now </button>
+<button class="btn">Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+     <h1>Join the best gym of lahore now</h1>
+     <form action="noaction.php"></form>
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+     </div>
+     <form action="noaction.php"></form>
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+     </div>
+     <form action="noaction.php"></form>
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+     </div>
+     <form action="noaction.php"></form>
+     <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+     </div>
+     <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
